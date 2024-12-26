@@ -1,0 +1,113 @@
+/* to List_shopping.html */  
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+}  
+  
+.container {  
+    display: flex;  
+}  
+  
+.sidebar {  
+    background-color: #000000;  
+    width: 150px;  
+    height: 100vh;  
+    color: white;  
+    
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    padding: 10px;  
+    text-align: center;  
+    font-size: x-large;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}  
+
+.sidebar li:hover {  
+    background-color: #2563eb;  
+}
+
+.fclor {  
+    color: white;  
+    text-decoration: none;  
+}
+  
+.main-content {  
+    flex: 1;  
+    background-color: white;  
+}  
+  
+.header {  
+    background-color: #2563eb;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+.bg-block {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 20px;
+    height: 620px;
+}
+
+.list {  
+    display: flex;  
+    
+}  
+
+.content_food {  
+    display: grid;  
+    gap: 10px;  
+    padding: 20px;  
+    width: 30%;
+    height: 50%;
+}  
+
+.content_goods {  
+    display: grid;   
+    gap: 10px;  
+    padding: 20px;  
+    overflow: scroll;
+    width: 30%;
+}
+
+.content_dailyitem {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    overflow: scroll;
+    width: 30%;
+}
+
+.list_text {
+    text-decoration: none;
+    color: black;
+}
+  
+.category {  
+    background-color: #c0c0c0;  
+    padding: 10px;  
+    font-size: large;
+    text-align: center;  
+    font-weight: bold;  
+}  
+  
+.item {  
+    background-color: #a8d0e6;  
+    padding: 5px;  
+    margin-top: 10px;  
+    height: 34px;
+}  
+
+.list_item {
+    overflow-y: auto;
+    height: 500px;
+}
