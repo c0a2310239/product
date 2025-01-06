@@ -1,0 +1,113 @@
+/* to List_food.html */  
+  
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+}  
+  
+.container {  
+    display: flex;  
+}  
+  
+.sidebar {  
+    width: 150px;  
+    background-color: #000000;  
+    height: 100vh;
+    color: white;  
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    padding: 10px;  
+    text-align: center;  
+    font-size: x-large;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}  
+
+.sidebar li:hover {  
+    background-color: #2563eb;  
+}
+
+.fclor {  
+    color: white;  
+    text-decoration: none;  
+}
+
+.main-content {  
+    flex: 1;  
+    background-color: white;  
+}
+  
+.header {  
+    background-color: #2d5db3;  
+    color: white;  
+    text-align: center;  
+    padding: 20px;    
+}  
+
+.bg-block {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 20px;
+    height: 620px;
+}
+
+.list {
+    display: flex;
+}
+
+.list_text {
+    text-decoration: none;
+    color: black;
+}
+  
+.content_food {  
+    display: grid;
+    gap: 10px;  
+    padding: 20px;  
+    width: 33%;
+    height: 50%;
+}  
+
+.content_goods {
+    display: grid;
+    gap: 10px;  
+    padding: 20px;  
+    width: 33%;
+    height: 50%;
+}
+
+.content_dailyitem {
+    display: grid;
+    gap: 10px;  
+    padding: 20px;  
+    width: 33%;
+    height: 50%;
+}
+  
+.category {
+    background-color: #c0c0c0;  
+    padding: 10px;  
+    font-size: large;
+    text-align: center;  
+    font-weight: bold; 
+}
+
+.list_item {
+    overflow-y: auto;
+    height: 550px;
+}
+
+.item {  
+    background-color: #a8d0e6;  
+    padding: 5px;  
+    margin-top: 10px;  
+    height: 34px;
+}  
+
